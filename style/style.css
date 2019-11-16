@@ -1,0 +1,40 @@
+body{
+  background: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  user-select: none;
+  font-family: 'Gill Sans Nova Light', sans-serif;
+  text-align: center;
+}
+#bgVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#wrapper{
+  background-color: #ededed;
+  width: 80%;
+  position: absolute;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../media/bgPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.flex-container div {
+  background-color: #ededed;
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

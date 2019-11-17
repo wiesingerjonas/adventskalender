@@ -5,7 +5,11 @@ body{
   margin: 0;
   user-select: none;
   font-family: 'Gill Sans Nova Light', sans-serif;
+  color: #353b48;
   text-align: center;
+}
+h1{
+  font-size: 50px;
 }
 #bgVideo{
   position: fixed;
@@ -17,6 +21,7 @@ body{
 #wrapper{
   background-color: #ededed;
   width: 80%;
+  height: auto;
   position: absolute;
 }
 .flex-container {
@@ -30,11 +35,36 @@ body{
   justify-content: center;
 }
 .flex-container div {
-  background-color: #ededed;
+  background-color: #bbbcbf;
   width: 20%;
   height: 200px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  box-sizing: border-box;
+
+}
+
+.flex-container div p {
+  font-family: 'Lora', sans-serif;
+  font-size: 100px;
+  margin-top: 50px;
+  color: #353b48;
+}
+
+#imageBox{
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+#imageBox img {
+  max-height: 100vh;
+  max-width: 100%;
+}
+#close{
+  height: 5vh;
+  position: absolute;
+  margin: 2vh;
 }

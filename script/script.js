@@ -236,5 +236,8 @@ window.addEventListener('load', () => {
     }
   });
 
-
+  x.addEventListener('click', () => {
+    imageBox.style.display = 'none';
+    wrapper.style.display = 'block';
+  });
 });

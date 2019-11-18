@@ -3,6 +3,8 @@ const thisDay = d.getDate();
 
 
 window.addEventListener('load', () => {
+  document.getElementById('loading').style.display = 'none';
+
   const days = [
     document.getElementById('1'),
     document.getElementById('2'),
@@ -36,17 +38,19 @@ window.addEventListener('load', () => {
 
   for (let i = 0; i < thisDay-1 && i < 24; i++) {
     days[i].style.backgroundColor = '#ededed';
+    days[i].style.color = '#a17f1a';
   }
   if(thisDay < 25){
     days[thisDay-1].style.backgroundColor = 'white';
-    days[thisDay-1].style.border = '5px solid red';
+    days[thisDay-1].style.color = '#a17f1a';
+    days[thisDay-1].style.border = '5px solid #a17f1a';
   }
 
   days[0].addEventListener('click', () => {
     if(thisDay >= 1){
       pic.setAttribute("src", "./oliver/1.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
 
@@ -55,7 +59,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 2){
       pic.setAttribute("src", "./oliver/2.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -63,7 +67,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 3){
       pic.setAttribute("src", "./oliver/3.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -71,7 +75,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 4){
       pic.setAttribute("src", "./oliver/4.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -79,7 +83,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 5){
       pic.setAttribute("src", "./oliver/5.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -87,7 +91,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 6){
       pic.setAttribute("src", "./oliver/6.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -95,7 +99,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 7){
       pic.setAttribute("src", "./oliver/7.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -103,7 +107,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 8){
       pic.setAttribute("src", "./oliver/8.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -111,7 +115,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 9){
       pic.setAttribute("src", "./oliver/9.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -119,7 +123,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 10){
       pic.setAttribute("src", "./oliver/10.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -127,7 +131,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 11){
       pic.setAttribute("src", "./oliver/11.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -135,7 +139,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 12){
       pic.setAttribute("src", "./oliver/12.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -143,7 +147,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 13){
       pic.setAttribute("src", "./oliver/13.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -151,7 +155,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 14){
       pic.setAttribute("src", "./oliver/14.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -159,7 +163,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 15){
       pic.setAttribute("src", "./oliver/15.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -167,7 +171,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 16){
       pic.setAttribute("src", "./oliver/16.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -175,7 +179,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 17){
       pic.setAttribute("src", "./oliver/17.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -183,7 +187,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 18){
       pic.setAttribute("src", "./oliver/18.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -191,7 +195,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 19){
       pic.setAttribute("src", "./oliver/19.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -199,7 +203,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 20){
       pic.setAttribute("src", "./oliver/20.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -207,7 +211,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 21){
       pic.setAttribute("src", "./oliver/21.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -215,7 +219,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 22){
       pic.setAttribute("src", "./oliver/22.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -223,7 +227,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 23){
       pic.setAttribute("src", "./oliver/23.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
@@ -231,7 +235,7 @@ window.addEventListener('load', () => {
     if(thisDay >= 24){
       pic.setAttribute("src", "./oliver/24.png");
 
-      imageBox.style.display = 'block';
+      imageBox.style.display = 'flex';
       wrapper.style.display = 'none';
     }
   });
